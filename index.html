@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Programs - Index</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 30px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .programs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .program-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            overflow: hidden;
+        }
+
+        .program-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .program-card .card-number {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .program-card h3 {
+            color: #2c3e50;
+            font-size: 22px;
+            margin-bottom: 10px;
+            word-break: break-word;
+        }
+
+        .program-card p {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .card-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .card-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .category {
+            margin-bottom: 50px;
+        }
+
+        .category-title {
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 30px;
+            margin-top: 50px;
+            border-top: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            .programs-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .category-title {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 All Programs & Experiments</h1>
+            <p>Complete programs output of all Web Development Experiments & Projects</p>
+        </header>
+
+        <!-- Basic HTML Programs -->
+        <div class="category">
+            <h2 class="category-title">📝 HTML Programs</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <span class="card-number">EXP 1</span>
+                    <h3>Student Profile Card</h3>
+                    <p>Simple HTML page displaying student information with name, roll number, class, and college details.</p>
+                    <a href="EXP_1.html" class="card-link">View Program →</a>
+                </div>
+
+                <div class="program-card">
+                    <span class="card-number">EXP 2</span>
+                    <h3>Static Web Page</h3>
+                    <p>Static web page demonstrating basic HTML structure and semantic elements.</p>
+                    <a href="EXP_2.html" class="card-link">View Program →</a>
+                </div>
+
+                <div class="program-card">
+                    <span class="card-number">EXP 3</span>
+                    <h3>Text Formatting Tags</h3>
+                    <p>Comprehensive HTML program demonstrating all text formatting tags including bold, italic, underline, and more.</p>
+                    <a href="EXP_3.html" class="card-link">View Program →</a>
+                </div>
+
+                <div class="program-card">
+                    <span class="card-number">EXP 4</span>
+                    <h3>List Tags</h3>
+                    <p>HTML program exploring ordered lists, unordered lists, and description lists with various formatting options.</p>
+                    <a href="EXP_4.html" class="card-link">View Program →</a>
+                </div>
+
+                <div class="program-card">
+                    <span class="card-number">EXP 5</span>
+                    <h3>Image Tag</h3>
+                    <p>HTML program demonstrating image insertion, image maps, and responsive image techniques.</p>
+                    <a href="EXP_5.html" class="card-link">View Program →</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- HTML & CSS Programs -->
+        <div class="category">
+            <h2 class="category-title">🎨 HTML & CSS Programs</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <span class="card-number">EXP 6</span>
+                    <h3>Frames</h3>
+                    <p>Advanced HTML program demonstrating layout design with frames, header, sidebar, and footer sections with CSS styling.</p>
+                    <a href="EXP_6.html" class="card-link">View Program →</a>
+                </div>
+
+                <div class="program-card">
+                    <span class="card-number">EXP 7</span>
+                    <h3>Link Tag</h3>
+                    <p>HTML program demonstrating link tags, navigation, and styled social media links with professional CSS design.</p>
+                    <a href="EXP_7.html" class="card-link">View Program →</a>
+                </div>
+
+                <div class="program-card">
+                    <span class="card-number">EXP 8</span>
+                    <h3>Table Tag</h3>
+                    <p>Styled table program with gradient colors, hover effects, and professional CSS for timetable display.</p>
+                    <a href="EXP_8.html" class="card-link">View Program →</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Advanced HTML & Form Programs -->
+        <div class="category">
+            <h2 class="category-title">💻 Advanced HTML Programs</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <span class="card-number">EXP 9</span>
+                    <h3>Employee Form</h3>
+                    <p>Comprehensive HTML form for employee data collection with validation and styled input fields.</p>
+                    <a href="EXP_9.html" class="card-link">View Program →</a>
+                </div>
+
+                <div class="program-card">
+                    <span class="card-number">EXP 10</span>
+                    <h3>Resume Web Page</h3>
+                    <p>Professional resume with HTML, CSS, and JavaScript. Includes education, skills, experience, and projects with print functionality.</p>
+                    <a href="EXP_10.html" class="card-link">View Program →</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- XML & XSLT Programs -->
+        <div class="category">
+            <h2 class="category-title">📊 XML & XSLT Programs</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <span class="card-number">EXP 11</span>
+                    <h3>XML</h3>
+                    <p>XML file with book data and professional CSS styling rules including author, publisher, and edition information.</p>
+                    <a href="EXP_11/EXP_11.xml" class="card-link">View XML →</a>
+                </div>
+
+                <div class="program-card">
+                    <span class="card-number">EXP 12</span>
+                    <h3>XML to XSLT</h3>
+                    <p>XML file with XSLT transformation demonstrating data conversion and styling using XSLT stylesheets.</p>
+                    <a href="EXP_12/cdcatlog_output.html" class="card-link">View Program →</a>
+                </div>
+
+                <div class="program-card">
+                    <span class="card-number">EXP 13</span>
+                    <h3>Student App using XSLT</h3>
+                    <p>Student management application using XML and XSLT with styled output table displaying student information.</p>
+                    <a href="EXP_13/students_output.html" class="card-link">View Program →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Prerana Shinde | CSE Student | All Programs & Experiments</p>
+            <p style="margin-top: 10px; font-size: 14px;">🎯 SY CSE A Division | D.Y.Patil college of Engineering and Technology, Kolhapur</p>
+        </div>
+    </div>
+</body>
+</html>
