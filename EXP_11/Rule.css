@@ -1,0 +1,55 @@
+books { 
+	color: white; 
+	background-color : pink; 
+	width: 100%; 
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	border-radius: 8px;
+	margin: 10px 0;
+} 
+
+heading { 
+	color: green; 
+	font-size : 40px; 
+	background-color : powderblue; 
+	padding: 15px;
+	text-align: center;
+	border-bottom: 3px solid green;
+	margin: 0;
+} 
+
+heading, title, author, publisher, edition { 
+	display : block; 
+} 
+
+title { 
+	font-size : 25px; 
+	font-weight : bold; 
+	color: #333;
+	margin: 10px 0 5px 0;
+	text-decoration: underline;
+} 
+
+author {
+	font-size: 18px;
+	color: #555;
+	margin: 8px 0;
+	font-style: italic;
+}
+
+publisher {
+	font-size: 16px;
+	color: #666;
+	margin: 8px 0;
+	background-color: #f0f0f0;
+	padding: 8px;
+	border-left: 4px solid orange;
+}
+
+edition {
+	font-size: 14px;
+	color: #888;
+	margin: 8px 0;
+	padding: 5px;
+	background-color: #fffacd;
+} 
