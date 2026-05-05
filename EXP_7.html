@@ -1,72 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title >College Timetable</title>
-    <!-- <style>
-        table { width: 80%; border-collapse: collapse; margin: 20px auto; border: 2px solid #333; }
-        th, td { border: 1px solid #ccc; padding: 10px; text-align: center; }
-        th { background-color: #f2f2f2; }
-        .lunch { background-color: #bcedf9; }
-    </style> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Links - Prerana Shinde</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            padding: 50px 40px;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            color: #667eea;
+            margin-bottom: 40px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .links-section {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .link-icon {
+            font-size: 28px;
+            min-width: 40px;
+            text-align: center;
+        }
+
+        .link-item a {
+            flex: 1;
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: block;
+        }
+
+        .linkedin {
+            background: linear-gradient(135deg, #0077b5 0%, #005885 100%);
+        }
+
+        .linkedin:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 119, 181, 0.4);
+        }
+
+        .github {
+            background: linear-gradient(135deg, #333 0%, #1a1a1a 100%);
+        }
+
+        .github:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(51, 51, 51, 0.4);
+        }
+
+        .divider {
+            height: 1px;
+            background-color: #ecf0f1;
+            margin: 30px 0;
+        }
+
+        .footer-text {
+            color: #999;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .link-item a {
+                padding: 12px;
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <table border ="2" align="center">
-        <caption align="center"><b>College Timetable SY CSE A S4 batch</b></caption>
-        <thead>
-            <tr align="center">
-                <th align="center">Day/Time</th>
-                <th align="center">09:00-11:00</th>
-                <th align="center">11:15-12:15</th>
-                <th align="center">12:15-01:15</th>
-                <th align="center">01:15-02:00</th>
-                <th align="center">02:00-03:00</th>
-                <th align="center">03:00-04:00</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr align="center">
-                <th align="center">Monday</th>
-                <td align="center">Web dev lab</td>
-                <td align="center">AOOC</td>
-                <td align="center">MDM</td>
-                <td rowspan="5" class="lunch">Lunch</td>
-                <td align="center">DSL</td>
-                <td align="center">-</td>
-            </tr>
-            <tr align ="center">
-                <th align ="center">Tuesday</th>
-                <td align ="center">TPMS lab</td>
-                <td align ="center">AT</td>
-                <td align ="center">DSL</td>
-                <td align ="center">WD</td>
-                <td align ="center">Env</td>
-            </tr>
-            <tr align ="center">
-                <th align ="center">Wednesday</th>
-                <td align ="center">AOOC lab</td>
-                <td align ="center">AOOC</td>
-                <td align ="center">MDM</td>
-                <td align ="center">DSL</td>
-                <td align ="center">Env</td>
-            </tr>
-            <tr align ="center">
-                <th align ="center">Thursday</th>
-                <td align ="center">DS lab</td>
-                <td align ="center">AT</td>
-                <td align ="center">AT</td>
-                <td align ="center">-</td>
-                <td align ="center">OEC</td>
-            </tr>
-            <tr align ="center">
-                <th align ="center">Friday</th>
-                <td align ="center">TTL lab</td>
-                <td align ="center">TTL</td>
-                <td align ="center">TTL</td>
-                <td align ="center">TPMS</td>
-                <td align ="center">OEC</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container">
+        <h1>Prerana Shinde</h1>
+        <p class="subtitle">Connect with me</p>
+
+        <div class="links-section">
+            <div class="link-item">
+                <span class="link-icon">🔗</span>
+                <a href="https://www.linkedin.com/in/prerana-shinde-17b54832b/" target="_blank" class="linkedin">
+                    LinkedIn Profile
+                </a>
+            </div>
+
+            <div class="link-item">
+                <span class="link-icon">💻</span>
+                <a href="https://github.com/Prerana030806" target="_blank" class="github">
+                    GitHub Profile
+                </a>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <p class="footer-text">Click the links above to visit my profiles</p>
+    </div>
 </body>
 </html>
